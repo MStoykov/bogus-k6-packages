@@ -1,0 +1,12 @@
+Package: k6
+Version: 0.32.1-2.deprecaterepo
+Source: k6
+Section: unknown
+Priority: extra
+Maintainer: Load Impact AB
+Homepage: https://k6.io/
+Description: Load testing for the 21st century
+Architecture: amd64
+Depends: ca-certificates
+Installed-Size: 36 kB
+Package-Type: deb
