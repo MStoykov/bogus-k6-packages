@@ -1,4 +1,4 @@
-#!/bin/sh -xe
+#!/bin/sh -e
 
 echo "\e[32mThe repo you are using for installing k6 is being depracated as a result bintray sunsetting it's service on 1st of May 2021.\e[0m
 As a result of that there is now a new repository. In order to upgrade we recommend that you:
