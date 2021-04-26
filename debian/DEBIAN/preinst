@@ -1,9 +1,6 @@
 #!/bin/sh -e
 
-echo "\e[32mThe repo you are using for installing k6 is being depracated as a result bintray sunsetting it's service on 1st of May 2021.\e[0m
-As a result of that there is now a new repository. In order to upgrade we recommend that you:
-1. removing this repo which if you've followed the old installation instructions should be done by deleting the line 'deb https://dl.bintray.com/loadimpact/deb stable main' from /etc/apt/sources.list
-2. install the new gpg key 'sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys C5AD17C747E3415A3642D57D77C6C491D6AC1D69' as said in https://k6.io/docs/getting-started/installation/#fedora-centos
-3. install the new repo 'echo "deb https://dl.k6.io/deb stable main" | sudo tee /etc/apt/sources.list.d/k6.list' as said in https://k6.io/docs/getting-started/installation/#fedora-centos
-4(optional). reinstall the package with 'sudo apt-get update && sudo apt-get reinstall k6'"
+echo "\e[32mThe repo you are using for installing k6 is being shutdown as a result of Bintray sunsetting its service on May 1st 2021.\e[0m
+The k6 team has made available a new repository where future packages will be published.
+In order to upgrade we recommend that you follow the new installation instructions at https://k6.io/docs/getting-started/installation/ and remove the Bintray repository and key as mentioned in the \"Note about Bintray\" section."
 exit 1
